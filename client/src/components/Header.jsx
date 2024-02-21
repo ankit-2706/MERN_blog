@@ -1,12 +1,12 @@
 import { Button, Navbar, NavbarToggle, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
-import { AiOutlineSearch } from 'react-icons/ai';
-import { FaMoon } from 'react-icons/fa';
+import { AiOutlineSearch } from "react-icons/ai";
+import { FaMoon } from "react-icons/fa";
 
 export default function Header() {
-    const path = useLocation().pathname; 
+  const path = useLocation().pathname;
   return (
-    <Navbar className="text-white border-b-2">
+    <Navbar className=" border-b-2">
       <Link
         to="/"
         className="self-center whitespace-nowrap text-sm sm:text-xl
