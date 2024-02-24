@@ -82,7 +82,7 @@ export default function FooterCom() {
             href="#"
             by="Ankit's blog"
             year={new Date().getFullYear()}
-          />
+          /> 
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
             <Footer.Icon
               href="https://www.facebook.com/ankit.chouhan.75685962/"
